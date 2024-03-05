@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": "8a6f",
+      "fname": "Mahendar",
+      "lname": "Maddela",
+      "mail": "mahendar1241@gmail.com",
+      "pass": "1234",
+      "sex": "male"
+    },
+    {
+      "id": "c142",
+      "fname": "mahesh",
+      "lname": "N",
+      "mail": "mahendarnerudu13579@gmail.com",
+      "pass": "1122",
+      "sex": "male"
+    },
+    {
+      "id": "02b8",
+      "fname": "manasa",
+      "lname": "B",
+      "mail": "mahendar12416@gmail.com",
+      "pass": "112233",
+      "sex": "female"
+    },
+    {
+      "id": "3a80",
+      "fname": "Mahendar",
+      "lname": "Maddela",
+      "mail": "mahendar1242@gmail.com",
+      "pass": "123456",
+      "sex": "male"
+    },
+    {
+      "id": "b550",
+      "firstname": "MAHENDAR",
+      "lastname": "MADDELA",
+      "email": "mahendar1241@gmail.com",
+      "password": "1122",
+      "gender": "male"
+    }
+  ],
+  "Patients": [
+    {
+      "patientname": "mahesh",
+      "phoneNo": "5465343",
+      "age": "24",
+      "gender": "male",
+      "location": "hyd",
+      "date": "2024-02-29",
+      "time": "16:22",
+      "comments": "123",
+      "id": "2a37"
+    }
+  ]
+}

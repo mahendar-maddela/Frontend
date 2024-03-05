@@ -1,0 +1,148 @@
+.loginpage {
+  background-color: rgb(142, 229, 229);
+
+}
+
+.homemain {
+  background-image: url("C:\MMprogram\Project\FrontEnd\web-app\public\images\bg3.jpg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  width: 100%;
+  height: 100vh;
+  color: whitesmoke;
+  text-align: center;
+
+
+}
+/* blure boking form */
+.blur-background {
+  position: relative;
+}
+
+.blur-background::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.blur-content {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.app-header {
+  margin-top: 60px;
+  padding: 10px;
+}
+
+.booking-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+.register-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(150, 202, 185);
+}
+
+/* contact pages  */
+.contact_page{
+  background-color: rgb(161, 223, 166);
+  height: 100vh;
+}
+/* services */
+.servises_page{
+  /* background-color: rgb(207, 198, 166); */
+  height: 100vh;
+}
+/* main pages */
+.mainpage {
+  background-image: url('C:\MMprogram\Project\FrontEnd\web-app\public\images\TaeAugust11.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex; /* Add flex display */
+}
+.vertical-line {
+  position: absolute;
+  top: 0;
+  left: 10px; /* Adjust position as needed */
+  width: 2px; /* Width of the line */
+  height: 100%; /* Height of the line */
+  background-color: rgb(124, 185, 224); /* Color of the line */
+}
+
+.sidenames {
+  padding-top: 10px;
+  background-color: rgb(124, 185, 224);
+}
+
+.orange-text {
+  color: rgb(84, 79, 152);
+}
+
+.orange-text:nth-child(1) {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.orange-text:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.orange-text:nth-child(3) {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.headline_mainpage {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  color: rgb(11, 68, 103);
+  /* align-items: center;  */
+  flex-grow: 1; /* Allow the element to grow to fill the remaining space */
+}
+.button-container {
+  position: absolute;
+  top: 50%;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; Add margin for spacing */
+}
+
+.appointmnet_details{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.bookingBox{
+  background-color: rgb(134, 192, 159);
+}
+.editbutton{
+font-size: 30px;
+text-align: center;
+}
+.appaitpage{
+  background-color: blanchedalmond;
+ 
+}
